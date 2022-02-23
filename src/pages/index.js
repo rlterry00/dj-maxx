@@ -13,10 +13,10 @@ import ipad from "../assets/images/ipad.png";
 import demoImage1 from "../assets/images/demo-image-01.jpg";
 import demoImage2 from "../assets/images/demo-image-02.jpg";
 import bgMaster from "../assets/images/bg-masthead.jpg";
-import djmaxx2 from "../assets/images/djmaxx2.jpeg";
+import djmaxx2 from "../assets/images/IMG_5242.jpg";
 import djmaxx3 from "../assets/images/djmaxx3.jpeg";
-import logo2 from "../assets/images/djmaxx1.jpeg";
-import djnight from '../assets/images/djnight.jpeg'
+import logo2 from "../assets/images/headphones2.png";
+import djnight from "../assets/images/IMG_5234.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -38,26 +38,26 @@ const IndexPage = () => (
       </div>
     </header>
 
-    <section id="about" className="about-section text-center">
+    <section className="about-section text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
-            <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
-            </p>
+            <h2 className="text-white mb-4">
+              "The noblest art is that of making others happy."
+            </h2>
+            <p className="text-white-50">- P.T. Barnum</p>
           </div>
         </div>
-        <img src={logo2} className="img-fluid" style={{ width: 500, height: "auto", padding: 40, borderRadius: 50}} alt="" />
+        <img
+          src={logo2}
+          className="img-fluid"
+          style={{ width: 500, height: "auto", padding: 40, borderRadius: 50 }}
+          alt=""
+        />
       </div>
     </section>
 
-    <section id="projects" className="projects-section bg-light">
+    <section id="about" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
@@ -65,11 +65,17 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>Who is DJ Maxx?</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                A Dj and music enthusiast with an eclectic taste, Dj Maxx will
+                tailor your experience specific to your event. Dj Maxx has years
+                of experience (est. 1988) Dj'ing private parties, clubs, special
+                and corporate events. Maxx uses his own creativity and style
+                with the music that moves those that seek to have an enjoyable
+                experience. He provides professionalism and timely service. His
+                guiding thought is, allow music to take participants on a
+                memorable rhythmic journey that refresh the soul. <br /> “…Be
+                refreshed and be well…” 1 Samuel 16:23
               </p>
             </div>
           </div>
@@ -83,10 +89,10 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Maxx Services:</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    - Private Party <br /> - Corporate Events <br /> - Church
+                    Events <br /> - Mobile Events
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -103,7 +109,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Maxx Mixxes:</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,
