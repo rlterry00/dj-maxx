@@ -15,7 +15,7 @@ import demoImage2 from "../assets/images/demo-image-02.jpg";
 import bgMaster from "../assets/images/bg-masthead.jpg";
 import djmaxx2 from "../assets/images/djmaxx2.jpeg";
 import djmaxx3 from "../assets/images/djmaxx3.jpeg";
-import logo2 from "../assets/images/djmaxxlogo2.jpeg";
+import logo2 from "../assets/images/djmaxx1.jpeg";
 import djnight from '../assets/images/djnight.jpeg'
 
 const IndexPage = () => (
@@ -53,7 +53,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <img src={logo2} className="img-fluid" alt="" />
+        <img src={logo2} className="img-fluid" style={{ width: 500, height: "auto", padding: 40, borderRadius: 50}} alt="" />
       </div>
     </section>
 

@@ -536,6 +536,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_bg_masthead_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/images/bg-masthead.jpg */ "./src/assets/images/bg-masthead.jpg");
 /* harmony import */ var _assets_images_djmaxx2_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/images/djmaxx2.jpeg */ "./src/assets/images/djmaxx2.jpeg");
 /* harmony import */ var _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/images/djmaxx3.jpeg */ "./src/assets/images/djmaxx3.jpeg");
+/* harmony import */ var _assets_images_djmaxxlogo2_jpeg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/images/djmaxxlogo2.jpeg */ "./src/assets/images/djmaxxlogo2.jpeg");
+/* harmony import */ var _assets_images_djnight_jpeg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/images/djnight.jpeg */ "./src/assets/images/djnight.jpeg");
+
+
 
 
 
@@ -583,7 +587,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
 }, "Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the starter on", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "https://github.com/anubhavsrivastava/gatsby-starter-grayscale"
 }, "the github repo"), "."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"],
+  src: _assets_images_djmaxxlogo2_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"],
   className: "img-fluid",
   alt: ""
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
@@ -597,7 +601,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   className: "col-xl-8 col-lg-7"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
   className: "img-fluid mb-3 mb-lg-0",
-  src: _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"],
+  src: _assets_images_djnight_jpeg__WEBPACK_IMPORTED_MODULE_15__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-xl-4 col-lg-5"
@@ -1192,6 +1196,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxxlogo-cf1aa9e99f401e5e194f4f3ce2c265e7.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/djmaxxlogo2.jpeg":
+/*!********************************************!*\
+  !*** ./src/assets/images/djmaxxlogo2.jpeg ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxxlogo2-3898dcdd46d67e582ed0616cc13bc5e3.jpeg");
+
+/***/ }),
+
+/***/ "./src/assets/images/djnight.jpeg":
+/*!****************************************!*\
+  !*** ./src/assets/images/djnight.jpeg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djnight-c711d5ec729995145bea071ceeac37eb.jpeg");
 
 /***/ }),
 
