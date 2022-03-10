@@ -13,10 +13,11 @@ import ipad from "../assets/images/ipad.png";
 import demoImage1 from "../assets/images/demo-image-01.jpg";
 import demoImage2 from "../assets/images/demo-image-02.jpg";
 import bgMaster from "../assets/images/bg-masthead.jpg";
-import djmaxx2 from "../assets/images/IMG_5242.jpg";
+import djmaxx2 from "../assets/images/djmaxx1.jpeg";
 import djmaxx3 from "../assets/images/djmaxx3.jpeg";
 import logo2 from "../assets/images/headphones2.png";
 import djnight from "../assets/images/IMG_5234.jpg";
+import djmaxx4 from "../assets/images/IMG_5242.jpg";
 
 const IndexPage = () => (
   <Layout>
@@ -61,7 +62,11 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={djnight} alt="" />
+            <img
+              className="img-fluid mb-3 mb-lg-0 image-shadow"
+              src={djmaxx4}
+              alt=""
+            />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -82,7 +87,7 @@ const IndexPage = () => (
         </div>
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div className="col-lg-6">
+          <div className="col-lg-6 image-shadow">
             <img className="img-fluid" src={djmaxx2} alt="" />
           </div>
           <div className="col-lg-6">
@@ -103,7 +108,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={djmaxx3} alt="" />
+            <img className="img-fluid" src={djnight} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">

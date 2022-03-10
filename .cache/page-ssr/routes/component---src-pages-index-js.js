@@ -534,10 +534,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_demo_image_01_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/images/demo-image-01.jpg */ "./src/assets/images/demo-image-01.jpg");
 /* harmony import */ var _assets_images_demo_image_02_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/images/demo-image-02.jpg */ "./src/assets/images/demo-image-02.jpg");
 /* harmony import */ var _assets_images_bg_masthead_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/images/bg-masthead.jpg */ "./src/assets/images/bg-masthead.jpg");
-/* harmony import */ var _assets_images_djmaxx2_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/images/djmaxx2.jpeg */ "./src/assets/images/djmaxx2.jpeg");
+/* harmony import */ var _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/images/djmaxx1.jpeg */ "./src/assets/images/djmaxx1.jpeg");
 /* harmony import */ var _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/images/djmaxx3.jpeg */ "./src/assets/images/djmaxx3.jpeg");
-/* harmony import */ var _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/images/djmaxx1.jpeg */ "./src/assets/images/djmaxx1.jpeg");
-/* harmony import */ var _assets_images_djnight_jpeg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/images/djnight.jpeg */ "./src/assets/images/djnight.jpeg");
+/* harmony import */ var _assets_images_headphones2_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/images/headphones2.png */ "./src/assets/images/headphones2.png");
+/* harmony import */ var _assets_images_IMG_5234_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/images/IMG_5234.jpg */ "./src/assets/images/IMG_5234.jpg");
+/* harmony import */ var _assets_images_IMG_5242_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/images/IMG_5242.jpg */ "./src/assets/images/IMG_5242.jpg");
+
 
 
 
@@ -572,7 +574,6 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   href: "#about",
   className: "btn btn-primary"
 }, "About"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "about",
   className: "about-section text-center"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "container"
@@ -582,12 +583,10 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   className: "col-lg-8 mx-auto"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
   className: "text-white mb-4"
-}, "Built with Bootstrap 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+}, "\"The noblest art is that of making others happy.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "text-white-50"
-}, "Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the starter on", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "https://github.com/anubhavsrivastava/gatsby-starter-grayscale"
-}, "the github repo"), "."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_14__["default"],
+}, "- P.T. Barnum"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  src: _assets_images_headphones2_png__WEBPACK_IMPORTED_MODULE_14__["default"],
   className: "img-fluid",
   style: {
     width: 500,
@@ -597,7 +596,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   },
   alt: ""
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "projects",
+  id: "about",
   className: "projects-section bg-light"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "container"
@@ -606,22 +605,22 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-xl-8 col-lg-7"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  className: "img-fluid mb-3 mb-lg-0",
-  src: _assets_images_djnight_jpeg__WEBPACK_IMPORTED_MODULE_15__["default"],
+  className: "img-fluid mb-3 mb-lg-0 image-shadow",
+  src: _assets_images_IMG_5242_jpg__WEBPACK_IMPORTED_MODULE_16__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-xl-4 col-lg-5"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "featured-text text-center text-lg-left"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Shoreline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Who is DJ Maxx?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "text-black-50 mb-0"
-}, "Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+}, "A Dj and music enthusiast with an eclectic taste, Dj Maxx will tailor your experience specific to your event. Dj Maxx has years of experience (est. 1988) Dj'ing private parties, clubs, special and corporate events. Maxx uses his own creativity and style with the music that moves those that seek to have an enjoyable experience. He provides professionalism and timely service. His guiding thought is, allow music to take participants on a memorable rhythmic journey that refresh the soul. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " \u201C\u2026Be refreshed and be well\u2026\u201D 1 Samuel 16:23")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "row justify-content-center no-gutters mb-5 mb-lg-0"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-lg-6"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
   className: "img-fluid",
-  src: _assets_images_djmaxx2_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"],
+  src: _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-lg-6"
@@ -633,9 +632,9 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   className: "project-text w-100 my-auto text-center text-lg-left"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
   className: "text-white"
-}, "Misty"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+}, "Maxx Services:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "mb-0 text-white-50"
-}, "An example of where you can put an image of a project, or anything else, along with a description."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
+}, "- Private Party ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Corporate Events ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Church Events ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Mobile Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
   className: "d-none d-lg-block mb-0 ml-0"
 })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "row justify-content-center no-gutters"
@@ -643,7 +642,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   className: "col-lg-6"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
   className: "img-fluid",
-  src: _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__["default"],
+  src: _assets_images_IMG_5234_jpg__WEBPACK_IMPORTED_MODULE_15__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "col-lg-6 order-lg-first"
@@ -655,7 +654,7 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   className: "project-text w-100 my-auto text-center text-lg-right"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
   className: "text-white"
-}, "Mountains"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+}, "Maxx Mixxes:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
   className: "mb-0 text-white-50"
 }, "Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
   className: "d-none d-lg-block mb-0 mr-0"
@@ -1115,6 +1114,36 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
 
 /***/ }),
 
+/***/ "./src/assets/images/IMG_5234.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/IMG_5234.jpg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/IMG_5234-1ecb639e0e96283816acae234945b65c.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/IMG_5242.jpg":
+/*!****************************************!*\
+  !*** ./src/assets/images/IMG_5242.jpg ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/IMG_5242-cecf65e829d2998a1bd7f00b98eacd95.jpg");
+
+/***/ }),
+
 /***/ "./src/assets/images/bg-masthead.jpg":
 /*!*******************************************!*\
   !*** ./src/assets/images/bg-masthead.jpg ***!
@@ -1171,22 +1200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxx1-f5e1ab5c530118fab02dc8d5f4d01058.jpeg");
-
-/***/ }),
-
-/***/ "./src/assets/images/djmaxx2.jpeg":
-/*!****************************************!*\
-  !*** ./src/assets/images/djmaxx2.jpeg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxx2-d48043919a35b620984e00beecabe536.jpeg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxx1-d7c598fa733be7d100bd29d202a40632.jpeg");
 
 /***/ }),
 
@@ -1220,10 +1234,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/assets/images/djnight.jpeg":
-/*!****************************************!*\
-  !*** ./src/assets/images/djnight.jpeg ***!
-  \****************************************/
+/***/ "./src/assets/images/headphones2.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/headphones2.png ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1231,7 +1245,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djnight-c711d5ec729995145bea071ceeac37eb.jpeg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/headphones2-44730a736485e539e88c2a468003e5be.png");
 
 /***/ }),
 
