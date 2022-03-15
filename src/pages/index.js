@@ -89,8 +89,10 @@ const IndexPage = () => (
                 experience. He provides professionalism and timely service. His
                 guiding thought is, allow music to take participants on a
                 memorable rhythmic journey that refresh the soul. <br /> “…Be
-                refreshed and be well…” 1 Samuel 16:23
+                refreshed and be well…”
               </p>
+              <br />
+              <p className="text-black-50 mb-0">1 Samuel 16:23</p>
             </div>
           </div>
         </div>
@@ -108,7 +110,7 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h4 className="text-white">Maxx Services:</h4>
                   <p className="mb-0 text-white-50">
-                    - Private Party <br /> - Corporate Events <br /> - Church
+                    - Private Parties <br /> - Corporate Events <br /> - Church
                     Events <br /> - Mobile Events
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />

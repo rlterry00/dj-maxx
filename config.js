@@ -30,6 +30,6 @@ module.exports = {
     },
   ],
   email: "Djmaxxdc@icloud.com",
-  phone: "301-741-1565",
-  address: "DMV or where ever you need me to be!",
+  phone: "571-926-7105",
+  address: "DMV or wherever you need me to be!",
 };
