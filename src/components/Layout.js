@@ -48,7 +48,7 @@ class Layout extends Component {
               />
               <meta
                 property="og:image"
-                content="https://www.sandbox.djmaxxdc.com/static/maxxbw3-ea61fa4f6cd38c96c51939061538abfd.png"
+                content="https://www.djmaxxdc.com/static/maxxbw3-ea61fa4f6cd38c96c51939061538abfd.png"
               />
               {/* <!-- Twitter --> */}
               <meta property="twitter:card" content="summary_large_image" />
@@ -60,7 +60,7 @@ class Layout extends Component {
               />
               <meta
                 property="twitter:image"
-                content="https://www.sandbox.djmaxxdc.com/static/maxxbw3-ea61fa4f6cd38c96c51939061538abfd.png"
+                content="https://www.djmaxxdc.com/static/maxxbw3-ea61fa4f6cd38c96c51939061538abfd.png"
               />
             </Helmet>
             <div className={"page-top"}>{children}</div>
