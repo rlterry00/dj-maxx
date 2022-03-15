@@ -1,683 +1,133 @@
-exports.id = "component---src-pages-index-js";
-exports.ids = ["component---src-pages-index-js"];
+exports.id = 678;
+exports.ids = [678];
 exports.modules = {
 
-/***/ "./config.js":
-/*!*******************!*\
-  !*** ./config.js ***!
-  \*******************/
+/***/ 1349:
 /***/ ((module) => {
 
-module.exports = {
-  siteTitle: 'DJ Maxx',
-  // <title>
-  manifestName: 'Grayscale',
-  manifestShortName: 'Landing',
-  // max 12 characters
-  manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
-  manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/djmaxxlogo.png',
-  pathPrefix: `/gatsby-starter-grayscale/`,
-  // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Dj Maxx',
-  subHeading: 'Music Moves',
-  // social
-  socialLinks: [{
-    icon: 'fa-github',
-    name: 'Github',
-    url: 'https://github.com/anubhavsrivastava'
-  }, {
-    icon: 'fa-linkedin-in',
-    name: 'Linkedin',
-    url: 'https://linkedin.com/in/theanubhav/'
-  }, {
-    icon: 'fa-twitter',
-    name: 'Twitter',
-    url: 'https://twitter.com/onlyanubhav'
-  }, {
-    icon: 'fa-facebook-f',
-    name: 'Facebook',
-    url: 'https://facebook.com/theanubhav'
-  }],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA'
-};
+module.exports={siteTitle:"DJ Maxx",// <title>
+manifestName:"Grayscale",manifestShortName:"Landing",// max 12 characters
+manifestStartUrl:"/",manifestBackgroundColor:"#663399",manifestThemeColor:"#663399",manifestDisplay:"standalone",manifestIcon:"src/assets/images/djmaxxlogo.png",pathPrefix:`/gatsby-starter-grayscale/`,// This path is subpath of your hosting https://domain/portfolio
+heading:"Dj Maxx",subHeading:"Music Moves",// social
+socialLinks:[{icon:"fa-mixcloud",name:"Mix Cloud",url:"https://www.mixcloud.com/MaxxDC/"},{icon:"fa-instagram",name:"Instagram",url:"https://www.instagram.com/djmaxxdc/"},{icon:"fa-twitch",name:"Twich",url:"https://www.twitch.tv/djmaxxdc"}],email:"Djmaxxdc@icloud.com",phone:"301-741-1565",address:"DMV or where ever you need me to be!"};
 
 /***/ }),
 
-/***/ "./src/components/Footer.js":
-/*!**********************************!*\
-  !*** ./src/components/Footer.js ***!
-  \**********************************/
+/***/ 7646:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ Header)
+});
+
+// EXTERNAL MODULE: external "/Users/ramonterry/Desktop/dj-maxx/node_modules/react/index.js"
+var index_js_ = __webpack_require__(215);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./src/components/Scroll.js
+var Scroll = __webpack_require__(618);
+// EXTERNAL MODULE: ./config.js
+var config = __webpack_require__(1349);
+;// CONCATENATED MODULE: ./src/assets/images/djmaxxlogo.png
+/* harmony default export */ const djmaxxlogo = (__webpack_require__.p + "static/djmaxxlogo-cf1aa9e99f401e5e194f4f3ce2c265e7.png");
+;// CONCATENATED MODULE: ./src/components/Header.js
+class Header extends index_js_.Component{constructor(props){super(props);this.toggleMenu=value=>{this.setState({openMenu:value});};this.handleScroll=()=>{const{visibilityClass}=this.state;if(window.pageYOffset>300){if(visibilityClass!=='navbar-shrink'){this.setState({visibilityClass:'navbar-shrink'});}}else{if(visibilityClass==='navbar-shrink'){this.setState({visibilityClass:''});}}};this.state={openMenu:false,visibilityClass:''};}componentDidMount(){window.addEventListener('scroll',this.handleScroll);}componentWillUnmount(){window.removeEventListener('scroll',this.handleScroll);}render(){const{openMenu,visibilityClass}=this.state;return/*#__PURE__*/index_js_default().createElement("nav",{className:`navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`,id:"mainNav"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("a",{className:"navbar-brand",href:"#page-top"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid",src:djmaxxlogo,style:{height:100,width:100},alt:""})),/*#__PURE__*/index_js_default().createElement("button",{onClick:_=>this.toggleMenu(!openMenu),className:`navbar-toggler navbar-toggler-right ${openMenu?"":"collapsed"}`,type:"button","aria-controls":"navbarResponsive","aria-expanded":openMenu,"aria-label":"Toggle navigation"},"Menu",/*#__PURE__*/index_js_default().createElement("i",{className:"fas fa-bars",style:{paddingLeft:5}})),/*#__PURE__*/index_js_default().createElement("div",{className:`collapse navbar-collapse ${openMenu?"show":""}`,id:"navbarResponsive"},/*#__PURE__*/index_js_default().createElement("ul",{className:"navbar-nav ml-auto"},/*#__PURE__*/index_js_default().createElement("li",{className:"nav-item"},/*#__PURE__*/index_js_default().createElement(Scroll/* default */.Z,{onClick:_=>this.toggleMenu(!openMenu),type:"id",element:"about"},/*#__PURE__*/index_js_default().createElement("a",{className:"nav-link",href:"#about"},"About"))),/*#__PURE__*/index_js_default().createElement("li",{className:"nav-item"},/*#__PURE__*/index_js_default().createElement(Scroll/* default */.Z,{onClick:_=>this.toggleMenu(!openMenu),type:"id",element:"projects"},/*#__PURE__*/index_js_default().createElement("a",{className:"nav-link",href:"#projects"},"Services"))),/*#__PURE__*/index_js_default().createElement("li",{className:"nav-item"},/*#__PURE__*/index_js_default().createElement(Scroll/* default */.Z,{onClick:_=>this.toggleMenu(!openMenu),type:"id",element:"signup"},/*#__PURE__*/index_js_default().createElement("a",{className:"nav-link",href:"#signup"},"Contact")))))));}}
+
+/***/ }),
+
+/***/ 2899:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Footer)
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(215);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
-    className: "bg-black small text-center text-white-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
-  }, "Copyright \xA9 Gatsby-starter-grayscale 2019"));
-}
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5697);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5482);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7533);
+class Layout extends react__WEBPACK_IMPORTED_MODULE_0__.Component{render(){const{children}=this.props;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.StaticQuery,{query:"3649515864",render:data=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment),null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__["default"],{title:data.site.siteMetadata.title,meta:[{name:'description',content:'Grayscale'},{name:'keywords',content:'site, web'}]},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("html",{lang:"en"})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{className:'page-top'},children))});}}Layout.propTypes={children:(prop_types__WEBPACK_IMPORTED_MODULE_3___default().node.isRequired)};/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
 /***/ }),
 
-/***/ "./src/components/Header.js":
-/*!**********************************!*\
-  !*** ./src/components/Header.js ***!
-  \**********************************/
+/***/ 618:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Header)
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Scroll__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Scroll */ "./src/components/Scroll.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../config */ "./config.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_config__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _assets_images_djmaxxlogo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/djmaxxlogo.png */ "./src/assets/images/djmaxxlogo.png");
-
-
-
-
-class Header extends react__WEBPACK_IMPORTED_MODULE_0__.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggleMenu = value => {
-      this.setState({
-        openMenu: value
-      });
-    };
-
-    this.handleScroll = () => {
-      const {
-        visibilityClass
-      } = this.state;
-
-      if (window.pageYOffset > 300) {
-        if (visibilityClass !== 'navbar-shrink') {
-          this.setState({
-            visibilityClass: 'navbar-shrink'
-          });
-        }
-      } else {
-        if (visibilityClass === 'navbar-shrink') {
-          this.setState({
-            visibilityClass: ''
-          });
-        }
-      }
-    };
-
-    this.state = {
-      openMenu: false,
-      visibilityClass: ''
-    };
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  render() {
-    const {
-      openMenu,
-      visibilityClass
-    } = this.state;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-      className: `navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`,
-      id: "mainNav"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: "container"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      className: "navbar-brand",
-      href: "#page-top"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-      className: "img-fluid",
-      src: _assets_images_djmaxxlogo_png__WEBPACK_IMPORTED_MODULE_3__["default"],
-      style: {
-        height: 100,
-        width: 100
-      },
-      alt: ""
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      onClick: _ => this.toggleMenu(!openMenu),
-      className: `navbar-toggler navbar-toggler-right ${openMenu ? "" : "collapsed"}`,
-      type: "button",
-      "aria-controls": "navbarResponsive",
-      "aria-expanded": openMenu,
-      "aria-label": "Toggle navigation"
-    }, "Menu", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-      className: "fas fa-bars"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: `collapse navbar-collapse ${openMenu ? "show" : ""}`,
-      id: "navbarResponsive"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
-      className: "navbar-nav ml-auto"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      className: "nav-item"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Scroll__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      onClick: _ => this.toggleMenu(!openMenu),
-      type: "id",
-      element: "about"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      className: "nav-link",
-      href: "#about"
-    }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      className: "nav-item"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Scroll__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      onClick: _ => this.toggleMenu(!openMenu),
-      type: "id",
-      element: "projects"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      className: "nav-link",
-      href: "#projects"
-    }, "Services"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-      className: "nav-item"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Scroll__WEBPACK_IMPORTED_MODULE_1__["default"], {
-      onClick: _ => this.toggleMenu(!openMenu),
-      type: "id",
-      element: "signup"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      className: "nav-link",
-      href: "#signup"
-    }, "Contact")))))));
-  }
-
-}
-
-/***/ }),
-
-/***/ "./src/components/Layout.js":
-/*!**********************************!*\
-  !*** ./src/components/Layout.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3649515864.json */ "./public/page-data/sq/d/3649515864.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/lib/Helmet.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _assets_sass_grayscale_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/sass/grayscale.scss */ "./src/assets/sass/grayscale.scss");
-/* harmony import */ var _assets_sass_grayscale_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_grayscale_scss__WEBPACK_IMPORTED_MODULE_4__);
-
-
-
-
-
-
-
-class Layout extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
-  render() {
-    const {
-      children
-    } = this.props;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.StaticQuery, {
-      query: "3649515864",
-      render: data => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        title: data.site.siteMetadata.title,
-        meta: [{
-          name: 'description',
-          content: 'Grayscale'
-        }, {
-          name: 'keywords',
-          content: 'site, web'
-        }]
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("html", {
-        lang: "en"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-        className: 'page-top'
-      }, children)),
-      data: _public_page_data_sq_d_3649515864_json__WEBPACK_IMPORTED_MODULE_0__
-    });
-  }
-
-}
-
-Layout.propTypes = {
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().node.isRequired)
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
-
-/***/ }),
-
-/***/ "./src/components/Scroll.js":
-/*!**********************************!*\
-  !*** ./src/components/Scroll.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! smoothscroll-polyfill */ "./node_modules/smoothscroll-polyfill/dist/smoothscroll.js");
+/* harmony import */ var smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(523);
 /* harmony import */ var smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(215);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5697);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-const Element = props => {
-  return props.children;
-};
-
-class Scroll extends (react__WEBPACK_IMPORTED_MODULE_1___default().Component) {
-  constructor() {
-    super();
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  componentDidMount() {
-    smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0___default().polyfill();
-  }
-
-  handleClick(e) {
-    e.preventDefault();
-    const {
-      onClick = () => {}
-    } = this.props;
-    let elem = 0;
-    let scroll = true;
-    const {
-      type,
-      element,
-      offset,
-      timeout
-    } = this.props;
-
-    if (type && element) {
-      switch (type) {
-        case 'class':
-          elem = document.getElementsByClassName(element)[0];
-          scroll = elem ? true : false;
-          break;
-
-        case 'id':
-          elem = document.getElementById(element);
-          scroll = elem ? true : false;
-          break;
-
-        default:
-      }
-    }
-
-    scroll ? this.scrollTo(elem, offset, timeout) : console.log(`Element not found: ${element}`); // eslint-disable-line
-
-    onClick(e);
-  }
-
-  scrollTo(element, offSet = 0, timeout = null) {
-    const elemPos = element ? element.getBoundingClientRect().top + window.pageYOffset : 0;
-
-    if (timeout) {
-      setTimeout(() => {
-        window.scroll({
-          top: elemPos + offSet,
-          left: 0,
-          behavior: 'smooth'
-        });
-      }, timeout);
-    } else {
-      window.scroll({
-        top: elemPos + offSet,
-        left: 0,
-        behavior: 'smooth'
-      });
-    }
-  }
-
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(Element, null, typeof this.props.children === 'object' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(this.props.children, {
-      onClick: this.handleClick
-    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-      onClick: this.handleClick
-    }, this.props.children));
-  }
-
-}
-
-Scroll.propTypes = {
-  type: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-  element: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-  offset: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-  timeout: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),
-  children: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().node.isRequired),
-  onClick: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().func)
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Scroll);
+const Element=props=>{return props.children;};class Scroll extends (react__WEBPACK_IMPORTED_MODULE_1___default().Component){constructor(){super();this.handleClick=this.handleClick.bind(this);}componentDidMount(){smoothscroll_polyfill__WEBPACK_IMPORTED_MODULE_0___default().polyfill();}handleClick(e){e.preventDefault();const{onClick=()=>{}}=this.props;let elem=0;let scroll=true;const{type,element,offset,timeout}=this.props;if(type&&element){switch(type){case'class':elem=document.getElementsByClassName(element)[0];scroll=elem?true:false;break;case'id':elem=document.getElementById(element);scroll=elem?true:false;break;default:}}scroll?this.scrollTo(elem,offset,timeout):console.log(`Element not found: ${element}`);// eslint-disable-line
+onClick(e);}scrollTo(element,offSet=0,timeout=null){const elemPos=element?element.getBoundingClientRect().top+window.pageYOffset:0;if(timeout){setTimeout(()=>{window.scroll({top:elemPos+offSet,left:0,behavior:'smooth'});},timeout);}else{window.scroll({top:elemPos+offSet,left:0,behavior:'smooth'});}}render(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(Element,null,typeof this.props.children==='object'?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().cloneElement(this.props.children,{onClick:this.handleClick}):/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span",{onClick:this.handleClick},this.props.children));}}Scroll.propTypes={type:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),element:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),offset:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),timeout:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().number),children:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().node.isRequired),onClick:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().func)};/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Scroll);
 
 /***/ }),
 
-/***/ "./src/components/SocialLinks.js":
-/*!***************************************!*\
-  !*** ./src/components/SocialLinks.js ***!
-  \***************************************/
+/***/ 8674:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SocialLinks)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../config */ "./config.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_config__WEBPACK_IMPORTED_MODULE_1__);
 
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ pages)
+});
 
-function SocialLinks() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "contact-section bg-black"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-md-4 mb-3 mb-md-0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card py-4 h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card-body text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fas fa-map-marked-alt text-primary mb-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "text-uppercase m-0"
-  }, "Address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    className: "my-4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "small text-black-50"
-  }, (_config__WEBPACK_IMPORTED_MODULE_1___default().address))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-md-4 mb-3 mb-md-0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card py-4 h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card-body text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fas fa-envelope text-primary mb-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "text-uppercase m-0"
-  }, "Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    className: "my-4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "small text-black-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: `mailto:${(_config__WEBPACK_IMPORTED_MODULE_1___default().email)}`
-  }, (_config__WEBPACK_IMPORTED_MODULE_1___default().email)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-md-4 mb-3 mb-md-0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card py-4 h-100"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "card-body text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "fas fa-mobile-alt text-primary mb-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: "text-uppercase m-0"
-  }, "Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-    className: "my-4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "small text-black-50"
-  }, (_config__WEBPACK_IMPORTED_MODULE_1___default().phone)))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "social d-flex justify-content-center"
-  }, _config__WEBPACK_IMPORTED_MODULE_1___default().socialLinks.map(social => {
-    const {
-      icon,
-      url
-    } = social;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      key: url,
-      href: url,
-      className: `mx-2`
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-      className: `fab ${icon}`
-    }));
-  }))));
-}
+// EXTERNAL MODULE: external "/Users/ramonterry/Desktop/dj-maxx/node_modules/react/index.js"
+var index_js_ = __webpack_require__(215);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./src/components/Layout.js
+var Layout = __webpack_require__(2899);
+// EXTERNAL MODULE: ./src/components/Scroll.js
+var Scroll = __webpack_require__(618);
+// EXTERNAL MODULE: ./config.js
+var config = __webpack_require__(1349);
+var config_default = /*#__PURE__*/__webpack_require__.n(config);
+;// CONCATENATED MODULE: ./src/components/Footer.js
+function Footer(){return/*#__PURE__*/index_js_default().createElement("footer",{className:"bg-black small text-center text-white-50"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},"Copyright \xA9 DJ Maxx 2022"));}
+;// CONCATENATED MODULE: ./src/components/SocialLinks.js
+function SocialLinks(){return/*#__PURE__*/index_js_default().createElement("section",{className:"contact-section bg-black"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-md-4 mb-3 mb-md-0"},/*#__PURE__*/index_js_default().createElement("div",{className:"card py-4 h-100"},/*#__PURE__*/index_js_default().createElement("div",{className:"card-body text-center"},/*#__PURE__*/index_js_default().createElement("i",{className:"fas fa-map-marked-alt text-primary mb-2"}),/*#__PURE__*/index_js_default().createElement("h4",{className:"text-uppercase m-0"},"Serving"),/*#__PURE__*/index_js_default().createElement("hr",{className:"my-4"}),/*#__PURE__*/index_js_default().createElement("div",{className:"small text-black-50"},(config_default()).address)))),/*#__PURE__*/index_js_default().createElement("div",{className:"col-md-4 mb-3 mb-md-0"},/*#__PURE__*/index_js_default().createElement("div",{className:"card py-4 h-100"},/*#__PURE__*/index_js_default().createElement("div",{className:"card-body text-center"},/*#__PURE__*/index_js_default().createElement("i",{className:"fas fa-envelope text-primary mb-2"}),/*#__PURE__*/index_js_default().createElement("h4",{className:"text-uppercase m-0"},"Email"),/*#__PURE__*/index_js_default().createElement("hr",{className:"my-4"}),/*#__PURE__*/index_js_default().createElement("div",{className:"small text-black-50"},/*#__PURE__*/index_js_default().createElement("a",{href:`mailto:${(config_default()).email}`},(config_default()).email))))),/*#__PURE__*/index_js_default().createElement("div",{className:"col-md-4 mb-3 mb-md-0"},/*#__PURE__*/index_js_default().createElement("div",{className:"card py-4 h-100"},/*#__PURE__*/index_js_default().createElement("div",{className:"card-body text-center"},/*#__PURE__*/index_js_default().createElement("i",{className:"fas fa-mobile-alt text-primary mb-2"}),/*#__PURE__*/index_js_default().createElement("h4",{className:"text-uppercase m-0"},"Phone"),/*#__PURE__*/index_js_default().createElement("hr",{className:"my-4"}),/*#__PURE__*/index_js_default().createElement("div",{className:"small text-black-50"},(config_default()).phone))))),/*#__PURE__*/index_js_default().createElement("div",{className:"social d-flex justify-content-center"},config_default().socialLinks.map(social=>{const{icon,url}=social;return/*#__PURE__*/index_js_default().createElement("a",{key:url,href:url,className:`mx-2`},/*#__PURE__*/index_js_default().createElement("i",{className:`fab ${icon}`}));}))));}
+;// CONCATENATED MODULE: ./src/components/Subscribe.js
+function Subscribe(){return/*#__PURE__*/index_js_default().createElement("section",{id:"signup",className:"signup-section"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-md-10 col-lg-8 mx-auto text-center"},/*#__PURE__*/index_js_default().createElement("i",{className:"far fa-paper-plane fa-2x mb-2 text-white"}),/*#__PURE__*/index_js_default().createElement("h2",{className:"text-white mb-5"},"Book Me For Your Next Event!"),/*#__PURE__*/index_js_default().createElement("form",{className:"form-inline d-flex",style:{visibility:"hidden"}},/*#__PURE__*/index_js_default().createElement("input",{type:"email",className:"form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0",id:"inputEmail",placeholder:"Enter email address..."}),/*#__PURE__*/index_js_default().createElement("button",{type:"submit",className:"btn btn-primary mx-auto"},"Subscribe"))))));}
+// EXTERNAL MODULE: ./src/components/Header.js + 1 modules
+var Header = __webpack_require__(7646);
+;// CONCATENATED MODULE: ./src/assets/images/ipad.png
+/* harmony default export */ const ipad = (__webpack_require__.p + "static/ipad-d9c10e6df68d20d97de52e58bb1e1e8e.png");
+;// CONCATENATED MODULE: ./src/assets/images/demo-image-01.jpg
+/* harmony default export */ const demo_image_01 = (__webpack_require__.p + "static/demo-image-01-cc9d2e3ed0e5328100ea7145bee28c4c.jpg");
+;// CONCATENATED MODULE: ./src/assets/images/demo-image-02.jpg
+/* harmony default export */ const demo_image_02 = (__webpack_require__.p + "static/demo-image-02-75d646b926c5d069952b228c63a0f575.jpg");
+;// CONCATENATED MODULE: ./src/assets/images/bg-masthead.jpg
+/* harmony default export */ const bg_masthead = (__webpack_require__.p + "static/bg-masthead-733fe6480d0aff46860c2beb6070fed8.jpg");
+;// CONCATENATED MODULE: ./src/assets/images/maxxbw2.png
+/* harmony default export */ const maxxbw2 = (__webpack_require__.p + "static/maxxbw2-0e136188cc5c312f3c35fbc091fa5c24.png");
+;// CONCATENATED MODULE: ./src/assets/images/maxxbw1.png
+/* harmony default export */ const maxxbw1 = (__webpack_require__.p + "static/maxxbw1-0e04e42de168e43151d65e373287cce5.png");
+;// CONCATENATED MODULE: ./src/assets/images/headphonesbw.png
+/* harmony default export */ const headphonesbw = (__webpack_require__.p + "static/headphonesbw-477c669a80d0b33ee738fd14ef241f13.png");
+;// CONCATENATED MODULE: ./src/assets/images/maxxbw3.png
+/* harmony default export */ const maxxbw3 = (__webpack_require__.p + "static/maxxbw3-ea61fa4f6cd38c96c51939061538abfd.png");
+;// CONCATENATED MODULE: ./src/assets/images/animation_500_l0riblid.gif
+/* harmony default export */ const animation_500_l0riblid = (__webpack_require__.p + "static/animation_500_l0riblid-0f4d976d77d0007767cc78ae0810db84.gif");
+;// CONCATENATED MODULE: ./src/assets/images/animation_500_l0rivgek.gif
+/* harmony default export */ const animation_500_l0rivgek = (__webpack_require__.p + "static/animation_500_l0rivgek-288396f2ac98062f4086e4b60eb3e650.gif");
+;// CONCATENATED MODULE: ./src/pages/index.js
+const IndexPage=()=>/*#__PURE__*/index_js_default().createElement(Layout/* default */.Z,null,/*#__PURE__*/index_js_default().createElement(Header/* default */.Z,null),/*#__PURE__*/index_js_default().createElement("header",{className:"masthead"},/*#__PURE__*/index_js_default().createElement("div",{className:"container d-flex h-100 align-items-center"},/*#__PURE__*/index_js_default().createElement("div",{className:"mx-auto text-center"},/*#__PURE__*/index_js_default().createElement("h1",{className:"mx-auto my-0 text-uppercase"},(config_default()).heading),/*#__PURE__*/index_js_default().createElement("h2",{className:"text-white-50 mx-auto mt-2 mb-5"},(config_default()).subHeading),/*#__PURE__*/index_js_default().createElement(Scroll/* default */.Z,{type:"id",element:"about"},/*#__PURE__*/index_js_default().createElement("a",{href:"#about",className:"btn btn-primary"},"About"))))),/*#__PURE__*/index_js_default().createElement("section",{className:"about-section text-center"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-lg-8 mx-auto"},/*#__PURE__*/index_js_default().createElement("h2",{className:"text-white mb-4"},"\"The noblest art is that of making others happy.\""),/*#__PURE__*/index_js_default().createElement("p",{className:"text-white-50"},"- P.T. Barnum"))),/*#__PURE__*/index_js_default().createElement("img",{src:headphonesbw,className:"img-fluid",style:{width:500,height:"auto",padding:40,borderRadius:50},alt:""}))),/*#__PURE__*/index_js_default().createElement("section",{id:"about",className:"projects-section bg-light"},/*#__PURE__*/index_js_default().createElement("div",{className:"container"},/*#__PURE__*/index_js_default().createElement("div",{className:"row align-items-center no-gutters mb-4 mb-lg-5"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-xl-8 col-lg-7"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid mb-3 mb-lg-0 image-shadow",src:maxxbw1,alt:""})),/*#__PURE__*/index_js_default().createElement("div",{className:"col-xl-4 col-lg-5"},/*#__PURE__*/index_js_default().createElement("div",{className:"featured-text text-center text-lg-left"},/*#__PURE__*/index_js_default().createElement("h4",null,"Who is DJ Maxx?"),/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid mb-3 mb-lg-0",src:animation_500_l0rivgek,alt:"",style:{width:100,height:"auto"}}),/*#__PURE__*/index_js_default().createElement("p",{className:"text-black-50 mb-0"},"A Dj and music enthusiast with an eclectic taste, Dj Maxx will tailor your experience specific to your event. Dj Maxx has years of experience (est. 1988) Dj'ing private parties, clubs, special and corporate events. Maxx uses his own creativity and style with the music that moves those that seek to have an enjoyable experience. He provides professionalism and timely service. His guiding thought is, allow music to take participants on a memorable rhythmic journey that refresh the soul. ",/*#__PURE__*/index_js_default().createElement("br",null)," \u201C\u2026Be refreshed and be well\u2026\u201D 1 Samuel 16:23")))),/*#__PURE__*/index_js_default().createElement("div",{className:"row justify-content-center no-gutters mb-5 mb-lg-0",id:"projects"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-lg-6 image-shadow"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid",src:maxxbw2,alt:""})),/*#__PURE__*/index_js_default().createElement("div",{className:"col-lg-6"},/*#__PURE__*/index_js_default().createElement("div",{className:"bg-black text-center h-100 project"},/*#__PURE__*/index_js_default().createElement("div",{className:"d-flex h-100"},/*#__PURE__*/index_js_default().createElement("div",{className:"project-text w-100 my-auto text-center text-lg-left"},/*#__PURE__*/index_js_default().createElement("h4",{className:"text-white"},"Maxx Services:"),/*#__PURE__*/index_js_default().createElement("p",{className:"mb-0 text-white-50"},"- Private Party ",/*#__PURE__*/index_js_default().createElement("br",null)," - Corporate Events ",/*#__PURE__*/index_js_default().createElement("br",null)," - Church Events ",/*#__PURE__*/index_js_default().createElement("br",null)," - Mobile Events"),/*#__PURE__*/index_js_default().createElement("hr",{className:"d-none d-lg-block mb-0 ml-0"})))))),/*#__PURE__*/index_js_default().createElement("div",{className:"row justify-content-center no-gutters"},/*#__PURE__*/index_js_default().createElement("div",{className:"col-lg-6"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid",src:maxxbw3,alt:""})),/*#__PURE__*/index_js_default().createElement("div",{className:"col-lg-6 order-lg-first"},/*#__PURE__*/index_js_default().createElement("div",{className:"bg-black text-center h-100 project"},/*#__PURE__*/index_js_default().createElement("div",{className:"d-flex h-100"},/*#__PURE__*/index_js_default().createElement("div",{className:"project-text w-100 my-auto text-center text-lg-right"},/*#__PURE__*/index_js_default().createElement("h4",{className:"text-white"},"Maxx Mixxes:"),/*#__PURE__*/index_js_default().createElement("a",{href:"https://m.mixcloud.com/MaxxDC/"},/*#__PURE__*/index_js_default().createElement("img",{className:"img-fluid mb-3 mb-lg-0",src:animation_500_l0riblid,alt:"",style:{width:100,height:"auto"}})),/*#__PURE__*/index_js_default().createElement("p",{className:"mb-0 text-white-50"},"If you are trying to catch a vibe and check out what DJ Maxx has to offer then check out my mixes on Mix Cloud! Click the record player above."),/*#__PURE__*/index_js_default().createElement("hr",{className:"d-none d-lg-block mb-0 mr-0"})))))))),/*#__PURE__*/index_js_default().createElement(Subscribe,null),/*#__PURE__*/index_js_default().createElement(SocialLinks,null),/*#__PURE__*/index_js_default().createElement(Footer,null));/* harmony default export */ const pages = (IndexPage);
 
 /***/ }),
 
-/***/ "./src/components/Subscribe.js":
-/*!*************************************!*\
-  !*** ./src/components/Subscribe.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Subscribe)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function Subscribe() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    id: "signup",
-    className: "signup-section"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-md-10 col-lg-8 mx-auto text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "far fa-paper-plane fa-2x mb-2 text-white"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "text-white mb-5"
-  }, "Subscribe to receive updates!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    className: "form-inline d-flex"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
-    type: "email",
-    className: "form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0",
-    id: "inputEmail",
-    placeholder: "Enter email address..."
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    type: "submit",
-    className: "btn btn-primary mx-auto"
-  }, "Subscribe"))))));
-}
-
-/***/ }),
-
-/***/ "./src/pages/index.js":
-/*!****************************!*\
-  !*** ./src/pages/index.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
-/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../config */ "./config.js");
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_config__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer.js");
-/* harmony import */ var _components_SocialLinks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/SocialLinks */ "./src/components/SocialLinks.js");
-/* harmony import */ var _components_Subscribe__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Subscribe */ "./src/components/Subscribe.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./src/components/Header.js");
-/* harmony import */ var _assets_images_ipad_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/images/ipad.png */ "./src/assets/images/ipad.png");
-/* harmony import */ var _assets_images_demo_image_01_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/images/demo-image-01.jpg */ "./src/assets/images/demo-image-01.jpg");
-/* harmony import */ var _assets_images_demo_image_02_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/images/demo-image-02.jpg */ "./src/assets/images/demo-image-02.jpg");
-/* harmony import */ var _assets_images_bg_masthead_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/images/bg-masthead.jpg */ "./src/assets/images/bg-masthead.jpg");
-/* harmony import */ var _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/images/djmaxx1.jpeg */ "./src/assets/images/djmaxx1.jpeg");
-/* harmony import */ var _assets_images_djmaxx3_jpeg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/images/djmaxx3.jpeg */ "./src/assets/images/djmaxx3.jpeg");
-/* harmony import */ var _assets_images_headphones2_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/images/headphones2.png */ "./src/assets/images/headphones2.png");
-/* harmony import */ var _assets_images_IMG_5234_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/images/IMG_5234.jpg */ "./src/assets/images/IMG_5234.jpg");
-/* harmony import */ var _assets_images_IMG_5242_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/images/IMG_5242.jpg */ "./src/assets/images/IMG_5242.jpg");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-  className: "masthead"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container d-flex h-100 align-items-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "mx-auto text-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-  className: "mx-auto my-0 text-uppercase"
-}, (_config__WEBPACK_IMPORTED_MODULE_3___default().heading)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-  className: "text-white-50 mx-auto mt-2 mb-5"
-}, (_config__WEBPACK_IMPORTED_MODULE_3___default().subHeading)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Scroll__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  type: "id",
-  element: "about"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "#about",
-  className: "btn btn-primary"
-}, "About"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  className: "about-section text-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-lg-8 mx-auto"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-  className: "text-white mb-4"
-}, "\"The noblest art is that of making others happy.\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "text-white-50"
-}, "- P.T. Barnum"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_headphones2_png__WEBPACK_IMPORTED_MODULE_14__["default"],
-  className: "img-fluid",
-  style: {
-    width: 500,
-    height: "auto",
-    padding: 40,
-    borderRadius: 50
-  },
-  alt: ""
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "about",
-  className: "projects-section bg-light"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row align-items-center no-gutters mb-4 mb-lg-5"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-xl-8 col-lg-7"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  className: "img-fluid mb-3 mb-lg-0 image-shadow",
-  src: _assets_images_IMG_5242_jpg__WEBPACK_IMPORTED_MODULE_16__["default"],
-  alt: ""
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-xl-4 col-lg-5"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "featured-text text-center text-lg-left"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Who is DJ Maxx?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "text-black-50 mb-0"
-}, "A Dj and music enthusiast with an eclectic taste, Dj Maxx will tailor your experience specific to your event. Dj Maxx has years of experience (est. 1988) Dj'ing private parties, clubs, special and corporate events. Maxx uses his own creativity and style with the music that moves those that seek to have an enjoyable experience. He provides professionalism and timely service. His guiding thought is, allow music to take participants on a memorable rhythmic journey that refresh the soul. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " \u201C\u2026Be refreshed and be well\u2026\u201D 1 Samuel 16:23")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row justify-content-center no-gutters mb-5 mb-lg-0"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-lg-6"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  className: "img-fluid",
-  src: _assets_images_djmaxx1_jpeg__WEBPACK_IMPORTED_MODULE_12__["default"],
-  alt: ""
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-lg-6"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "bg-black text-center h-100 project"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "d-flex h-100"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "project-text w-100 my-auto text-center text-lg-left"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-  className: "text-white"
-}, "Maxx Services:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "mb-0 text-white-50"
-}, "- Private Party ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Corporate Events ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Church Events ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " - Mobile Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-  className: "d-none d-lg-block mb-0 ml-0"
-})))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row justify-content-center no-gutters"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-lg-6"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  className: "img-fluid",
-  src: _assets_images_IMG_5234_jpg__WEBPACK_IMPORTED_MODULE_15__["default"],
-  alt: ""
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-lg-6 order-lg-first"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "bg-black text-center h-100 project"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "d-flex h-100"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "project-text w-100 my-auto text-center text-lg-right"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-  className: "text-white"
-}, "Maxx Mixxes:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "mb-0 text-white-50"
-}, "Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", {
-  className: "d-none d-lg-block mb-0 mr-0"
-})))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Subscribe__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SocialLinks__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
-
-/***/ }),
-
-/***/ "./src/assets/sass/grayscale.scss":
-/*!****************************************!*\
-  !*** ./src/assets/sass/grayscale.scss ***!
-  \****************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./node_modules/smoothscroll-polyfill/dist/smoothscroll.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/smoothscroll-polyfill/dist/smoothscroll.js ***!
-  \*****************************************************************/
+/***/ 523:
 /***/ ((module) => {
 
 /* smoothscroll v0.4.4 - 2019 - Dustan Kasten, Jeremias Menichelli - MIT License */
@@ -1111,167 +561,6 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
 
 }());
 
-
-/***/ }),
-
-/***/ "./src/assets/images/IMG_5234.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/IMG_5234.jpg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/IMG_5234-1ecb639e0e96283816acae234945b65c.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/images/IMG_5242.jpg":
-/*!****************************************!*\
-  !*** ./src/assets/images/IMG_5242.jpg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/IMG_5242-cecf65e829d2998a1bd7f00b98eacd95.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/images/bg-masthead.jpg":
-/*!*******************************************!*\
-  !*** ./src/assets/images/bg-masthead.jpg ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/bg-masthead-733fe6480d0aff46860c2beb6070fed8.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/images/demo-image-01.jpg":
-/*!*********************************************!*\
-  !*** ./src/assets/images/demo-image-01.jpg ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/demo-image-01-cc9d2e3ed0e5328100ea7145bee28c4c.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/images/demo-image-02.jpg":
-/*!*********************************************!*\
-  !*** ./src/assets/images/demo-image-02.jpg ***!
-  \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/demo-image-02-75d646b926c5d069952b228c63a0f575.jpg");
-
-/***/ }),
-
-/***/ "./src/assets/images/djmaxx1.jpeg":
-/*!****************************************!*\
-  !*** ./src/assets/images/djmaxx1.jpeg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxx1-d7c598fa733be7d100bd29d202a40632.jpeg");
-
-/***/ }),
-
-/***/ "./src/assets/images/djmaxx3.jpeg":
-/*!****************************************!*\
-  !*** ./src/assets/images/djmaxx3.jpeg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxx3-261fbcbebb48ff56f4531b27c8dc0f9c.jpeg");
-
-/***/ }),
-
-/***/ "./src/assets/images/djmaxxlogo.png":
-/*!******************************************!*\
-  !*** ./src/assets/images/djmaxxlogo.png ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/djmaxxlogo-cf1aa9e99f401e5e194f4f3ce2c265e7.png");
-
-/***/ }),
-
-/***/ "./src/assets/images/headphones2.png":
-/*!*******************************************!*\
-  !*** ./src/assets/images/headphones2.png ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/headphones2-44730a736485e539e88c2a468003e5be.png");
-
-/***/ }),
-
-/***/ "./src/assets/images/ipad.png":
-/*!************************************!*\
-  !*** ./src/assets/images/ipad.png ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/ipad-d9c10e6df68d20d97de52e58bb1e1e8e.png");
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/3649515864.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3649515864.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"DJ Maxx"}}}}');
 
 /***/ })
 

@@ -42,7 +42,12 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            <img className="img-fluid" src={logo} style={{ height: 100, width: 100}} alt="" />
+            <img
+              className="img-fluid"
+              src={logo}
+              style={{ height: 100, width: 100 }}
+              alt=""
+            />
           </a>
           <button
             onClick={(_) => this.toggleMenu(!openMenu)}
@@ -55,7 +60,7 @@ export default class Header extends Component {
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fas fa-bars"></i>
+            <i className="fas fa-bars" style={{ paddingLeft: 5 }}></i>
           </button>
           <div
             className={`collapse navbar-collapse ${openMenu ? "show" : ""}`}

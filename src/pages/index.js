@@ -1,5 +1,4 @@
 import React from "react";
-
 import Layout from "../components/Layout";
 import Scroll from "../components/Scroll";
 
@@ -13,11 +12,12 @@ import ipad from "../assets/images/ipad.png";
 import demoImage1 from "../assets/images/demo-image-01.jpg";
 import demoImage2 from "../assets/images/demo-image-02.jpg";
 import bgMaster from "../assets/images/bg-masthead.jpg";
-import djmaxx2 from "../assets/images/djmaxx1.jpeg";
-import djmaxx3 from "../assets/images/djmaxx3.jpeg";
-import logo2 from "../assets/images/headphones2.png";
-import djnight from "../assets/images/IMG_5234.jpg";
-import djmaxx4 from "../assets/images/IMG_5242.jpg";
+import djmaxx2 from "../assets/images/maxxbw2.png";
+import djmaxx3 from "../assets/images//maxxbw1.png";
+import logo2 from "../assets/images/headphonesbw.png";
+import djnight from "../assets/images/maxxbw3.png";
+import djmaxx4 from "../assets/images/animation_500_l0riblid.gif";
+import djmaxx5 from "../assets/images/animation_500_l0rivgek.gif";
 
 const IndexPage = () => (
   <Layout>
@@ -64,13 +64,22 @@ const IndexPage = () => (
           <div className="col-xl-8 col-lg-7">
             <img
               className="img-fluid mb-3 mb-lg-0 image-shadow"
-              src={djmaxx4}
+              src={djmaxx3}
               alt=""
             />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <h4>Who is DJ Maxx?</h4>
+              <img
+                className="img-fluid mb-3 mb-lg-0"
+                src={djmaxx5}
+                alt=""
+                style={{
+                  width: 100,
+                  height: "auto",
+                }}
+              />
               <p className="text-black-50 mb-0">
                 A Dj and music enthusiast with an eclectic taste, Dj Maxx will
                 tailor your experience specific to your event. Dj Maxx has years
@@ -86,7 +95,10 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div
+          className="row justify-content-center no-gutters mb-5 mb-lg-0"
+          id="projects"
+        >
           <div className="col-lg-6 image-shadow">
             <img className="img-fluid" src={djmaxx2} alt="" />
           </div>
@@ -115,11 +127,23 @@ const IndexPage = () => (
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">Maxx Mixxes:</h4>
+                  <a href="https://m.mixcloud.com/MaxxDC/">
+                    <img
+                      className="img-fluid mb-3 mb-lg-0"
+                      src={djmaxx4}
+                      alt=""
+                      style={{
+                        width: 100,
+                        height: "auto",
+                      }}
+                    />
+                  </a>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    If you are trying to catch a vibe and check out what DJ Maxx
+                    has to offer then check out my mixes on Mix Cloud! Click the
+                    record player above.
                   </p>
+
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

@@ -1,40 +1,35 @@
 module.exports = {
-  siteTitle: 'DJ Maxx', // <title>
-  manifestName: 'Grayscale',
-  manifestShortName: 'Landing', // max 12 characters
-  manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
-  manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/djmaxxlogo.png',
+  siteTitle: "DJ Maxx", // <title>
+  manifestName: "Grayscale",
+  manifestShortName: "Landing", // max 12 characters
+  manifestStartUrl: "/",
+  manifestBackgroundColor: "#663399",
+  manifestThemeColor: "#663399",
+  manifestDisplay: "standalone",
+  manifestIcon: "src/assets/images/djmaxxlogo.png",
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Dj Maxx',
-  subHeading: 'Music Moves',
+  heading: "Dj Maxx",
+  subHeading: "Music Moves",
 
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: "fa-mixcloud",
+      name: "Mix Cloud",
+      url: "https://www.mixcloud.com/MaxxDC/",
     },
     {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      icon: "fa-instagram",
+      name: "Instagram",
+      url: "https://www.instagram.com/djmaxxdc/",
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: "fa-twitch",
+      name: "Twich",
+      url: "https://www.twitch.tv/djmaxxdc",
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: "Djmaxxdc@icloud.com",
+  phone: "301-741-1565",
+  address: "DMV or where ever you need me to be!",
 };
